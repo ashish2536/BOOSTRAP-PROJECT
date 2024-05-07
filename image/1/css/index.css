@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 120px;
+    height: 88px;
+}
+
+#up{
+    background-color: #B4B4B3;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    
+}
+a{
+    color: #E55604;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    /* margin:  6px; */
+    font-weight: 500;
+    z-index: 9;
+    transition: 0.9s all;
+}
+a:hover{
+    color: transparent;
+    color: #26577C;
+    transition: 0.9s all;
+    z-index: 9;
+}
+
